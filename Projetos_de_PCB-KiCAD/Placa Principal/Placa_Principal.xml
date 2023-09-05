@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\UPE\2023.1 (em 2023.2)\Cadeiras\5. Metodologia Científica\2º EE - Artigo e Defesa\Artigo\PIC16F628A\Plataforma de Desenvolvimento PIC16F628A e Shield - KiCAD\Placa Principal\Placa_Principal.kicad_sch</source>
+    <date>01/09/2023 18:38:53</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Plataforma de Desenvolvimento PIC16F628A</title>
+        <company/>
+        <rev>Arthur Castro</rev>
+        <date>2022-09-19</date>
+        <source>Placa_Principal.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4046da75-4140-41cd-9d43-677d117f461b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>940075fc-bbcb-4583-90a4-7e85b58179da</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x09_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x09_Female" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fb4616b-14b2-45bc-95da-eff476488ccd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x09_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x09_Female" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73ed5cf6-96f6-4744-ba8c-537afd6a17ec</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PICkit3 Conn</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9df0734d-2ae8-4c80-84b7-a910163914ec</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0759b73e-d1d4-4b12-921d-e16e469a2b18</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PIC16F628A-IP</value>
+      <footprint>Package_DIP:DIP-18_W7.62mm_LongPads</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40300c.pdf</datasheet>
+      <libsource lib="MCU_Microchip_PIC16" part="PIC16F628A-IP" description="2048W Flash, 224B SRAM, 128B EEPROM, DIP18"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="2048W Flash, 224B SRAM, 128B EEPROM, DIP18"/>
+      <property name="ki_keywords" value="FLASH-Based 8-Bit CMOS Microcontroller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a9386ef-1ea2-4fbd-8e19-f7f5f02d1963</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>4MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Placa_Principal.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9217376-4465-4bbf-8c4d-18cbf33c5763</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x09_Female">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_PIC16" part="PIC16F628A-IP">
+      <description>2048W Flash, 224B SRAM, 128B EEPROM, DIP18</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40300c.pdf</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>PDIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16F628A-IP</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40300c.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vref/AN2/RA2" type="bidirectional"/>
+        <pin num="2" name="CMP1/AN3/RA3" type="bidirectional"/>
+        <pin num="3" name="TOCKI/CMP2/RA4" type="bidirectional"/>
+        <pin num="4" name="~{MCLR}/Vpp/RA5" type="input"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="RB0/INT" type="bidirectional"/>
+        <pin num="7" name="RB1/RX/DT" type="bidirectional"/>
+        <pin num="8" name="RB2/TX/CK" type="bidirectional"/>
+        <pin num="9" name="RB3/CCP1" type="bidirectional"/>
+        <pin num="10" name="RB4/PGM" type="bidirectional"/>
+        <pin num="11" name="RB5" type="bidirectional"/>
+        <pin num="12" name="RB6/T1OSC0/T1CKI/PGC" type="bidirectional"/>
+        <pin num="13" name="RB7/T1OSI/PGD" type="bidirectional"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="CLKOUT/OSC2/RA6" type="bidirectional"/>
+        <pin num="16" name="CLKIN/OSC1/RA7" type="bidirectional"/>
+        <pin num="17" name="AN0/RA0" type="bidirectional"/>
+        <pin num="18" name="AN1/RA1" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_PIC16">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_PIC16.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="CLK">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="RB6/T1OSC0/T1CKI/PGC" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="DAT">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="RB7/T1OSI/PGD" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="5" name="LVP">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="6" name="RA0">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="AN0/RA0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="RA1">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AN1/RA1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="RA2">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Vref/AN2/RA2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="RA3">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CMP1/AN3/RA3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="RA4">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="TOCKI/CMP2/RA4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="RA5">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{MCLR}/Vpp/RA5" pintype="input"/>
+    </net>
+    <net code="12" name="RA6">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="CLKOUT/OSC2/RA6" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="RA7">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="CLKIN/OSC1/RA7" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="RB0">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="RB0/INT" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="RB1">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="RB1/RX/DT" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="RB2">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="RB2/TX/CK" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="RB3">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="RB3/CCP1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="RB4">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="RB4/PGM" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="RB5">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="RB5" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
